@@ -22,6 +22,14 @@ install(PROGRAMS
     ${EXAMPLES_DIR}/ex_orientation_path_constraint.py
     ${EXAMPLES_DIR}/ex_pose_goal.py
     ${EXAMPLES_DIR}/ex_servo.py
+    ${EXAMPLES_DIR}/hsrb_fk.py
+    ${EXAMPLES_DIR}/hsrb_ik.py
+    ${EXAMPLES_DIR}/hsrb_arm_joint_goal.py
+    ${EXAMPLES_DIR}/hsrb_arm_pose_goal.py
+    ${EXAMPLES_DIR}/hsrb_whole_body_pose_goal.py
+    ${EXAMPLES_DIR}/hsrb_whole_body_joint_goal.py
+    ${EXAMPLES_DIR}/hsrb_gripper.py
+    ${EXAMPLES_DIR}/hsrb_ik_arm.py
     DESTINATION lib/${PROJECT_NAME}
 )
 
